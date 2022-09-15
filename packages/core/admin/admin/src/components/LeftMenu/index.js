@@ -89,23 +89,7 @@ const LeftMenu = ({ generalSectionLinks, pluginsSectionLinks }) => {
 
   return (
     <MainNav condensed={condensed}>
-      <NavBrand
-        as={RouterNavLink}
-        workplace={formatMessage({
-          id: 'app.components.LeftMenu.navbrand.workplace',
-          defaultMessage: 'Workplace',
-        })}
-        title={menuTitle}
-        icon={
-          <img
-            src={menu.custom || menu.default}
-            alt={formatMessage({
-              id: 'app.components.LeftMenu.logo.alt',
-              defaultMessage: 'Application logo',
-            })}
-          />
-        }
-      />
+
 
       <Divider />
 
